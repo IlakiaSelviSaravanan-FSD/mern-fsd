@@ -1,0 +1,184 @@
+Day 9 - CSS
+
+CSS: Cascading Style Sheet
+Why: to add customized to the website.
+HTML 4:
+div: stands for division/particular section in the document
+Span
+
+self closing as well as non-self closing tag.
+self closing Tag: br, img, meta
+closing tag: div, p, h,...
+
+HTML 5: Sematic tags
+Header, Nav, Main, Section, Article, Aside, Footer
+<Header>, <nav>, <main>, <section>, <article>, <aside>, <footer>
+
+inline css: represent inside the tag.
+Note: for a single element
+
+Example: <h1 style="color: blueviolet;">B54WD Tamil</h1>
+
+Task: 
+Header - Resume Title
+Main - Your Name
+section - schl, clg
+article - tell me about yourself
+footer - github, linkendin
+
+Example:
+<header>
+        <h1>Resume</h1>
+    </header>
+    <main>
+        <h1>Name: <span style="color: skyblue;">John</span></h1>
+        <section>
+            <p>School: Hr.Secondary School</p>
+            <p>College: Oxford University</p>
+        </section>
+        <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Quam officiis dolorum sed voluptatum beatae quidem repudiandae dolor cupiditate ipsum molestias.
+        </article>
+    </main>
+    <footer>
+        <a href="https://github.com/Thiru-cse">Github</a>
+        <a href="https://github.com/Thiru-cse">LinkenIN</a>
+    </footer>
+
+internal:
+it is applicable for the html document.
+it is applied using style tag inside the head tag.
+
+<style>
+    p{
+        font-family: Arial;
+        color: red;
+        background: gainsboro;
+    }
+</style>
+
+Selector:
+class - .
+id - #
+tag Selector - p
+
+class Selector can be applicable for more than one element.
+syntax: .className
+use the attribute called class.
+
+Note: for a single element you can apply internal as well as inline css.
+but priority is inline
+inline css > internal css
+
+Id selector:
+Example:
+<style>
+#main{
+    font-family: Arial;
+    color: red;
+   }
+</style>
+ <p id="main" class="main1">This Batch Placed</p>
+
+inline > id > class > tag
+
+External CSS:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9 | Learn HTML, CSS</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div>
+        <h1>B53WD Tamil</h1>
+        <p>This Batch Placed</p>
+    </div>
+</body>
+</html>
+
+
+
+////////////////////////////
+/**************************//
+my own codes
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="color: blue;"><h1 >Name:ilakiayasgdjhasvdhjsbdgdjhasbdasduygdahgdagdjkadName:ilakiayasgdjhasvdhjsbdgdjhasbdasduygd></h1></div>
+   <div>  <h1 style="color: aqua;">B53wd tamil</h1>  </div> 
+   <p style="color: aqua;">this batch is currently learning </p>
+
+   <header> RESUME 
+    <main>
+        <h1 style="color: skyblue;"> ILAKIA SELVI</h1>
+        <section>Schooling done- HOLY INFANT JESUS MAT HR SEC SCHOOL</section>
+        <br>
+        <section>
+        College done in SRI VENKATESWARA COLLEGE OF ENGINEERING AND TECHNOLOGY
+        </section>
+        <br>
+        <article>HI This is Ilakia I am a self-starter with strong interpersonal skills. I work efficiently both as an individual contributor as well as along with a team. I seek new challenges and try to think out-of-the-box while looking for creative solutions to a given problem.
+          
+        </article>
+        <br>
+       <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolor vel facere doloribus fugiat eaque omnis vero pariatur quo magnam hic eum et a quis nisi officiis ab, quam in!
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quo fuga asperiores ipsum soluta reprehenderit sit impedit laudantium facere sint, iste cumque sequi in cum. Omnis quibusdam aliquam blanditiis itaque!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quo fuga asperiores ipsum soluta reprehenderit sit impedit laudantium facere sint, iste cumque sequi in cum. Omnis quibusdam aliquam blanditiis itaque!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quo fuga asperiores ipsum soluta reprehenderit sit impedit laudantium facere sint, iste cumque sequi in cum. Omnis quibusdam aliquam blanditiis itaque!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quo fuga asperiores ipsum soluta reprehenderit sit impedit laudantium facere sint, iste cumque sequi in cum. Omnis quibusdam aliquam blanditiis itaque!
+        </p>
+       </article>
+    </main>
+</header>
+    <footer>
+        <a href="https://github.com/IlakiaSelviSaravanan-FSD" target="_blank">github link</a>
+        <a href="https://www.linkedin.com/in/ilakia-selvi-m-62a13418a/" target="_blank">Linkedin Profile</a>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:blueviolet;
+        background-color: azure;
+    }
+    #main{
+        color:white;
+        background-color: blueviolet;
+    }
+</style>
+<p>this is ilakia</p>
+<p class="main";>munusamy</p>
+<p id="main";>saravanan</p>
+<p>amaravathi</p>
+<body>
+    
+</body>
+</html>
+
